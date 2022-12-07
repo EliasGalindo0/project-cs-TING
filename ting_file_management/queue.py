@@ -10,8 +10,8 @@ class Queue:
 
     def dequeue(self):
         if len(self._data) == 0:
-          return None
-        
+            return None
+
         value = self._data[0]
         del self._data[0]
         return value
